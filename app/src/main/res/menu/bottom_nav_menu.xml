@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/servicesFragment"
+        android:icon="@drawable/ic_services"
+        android:title="@string/services" />
+
+    <item
+        android:id="@+id/feedbackHubFragment"
+        android:icon="@drawable/ic_feedback"
+        android:title="@string/feedback_hub" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_language"
+        android:title="@string/language" />
+
+</menu>

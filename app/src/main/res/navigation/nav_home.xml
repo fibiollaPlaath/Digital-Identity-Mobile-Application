@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/feedbackHubFragment">
+
+    <fragment
+        android:id="@+id/feedbackHubFragment"
+        android:name="na.com.green.saampraat.ui.feedbackHub.FeedbackHubFragment"
+        android:label="fragment_feedback_hub"
+        tools:layout="@layout/fragment_feedback_hub" />
+    <fragment
+        android:id="@+id/servicesFragment"
+        android:name="na.com.green.saampraat.ui.services.ServicesFragment"
+        android:label="fragment_services"
+        tools:layout="@layout/fragment_services" >
+        <action
+            android:id="@+id/action_servicesFragment_to_allServicesFragment"
+            app:destination="@id/allServicesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="na.com.green.saampraat.ui.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/allServicesFragment"
+        android:name="na.com.green.saampraat.ui.services.AllServicesFragment"
+        android:label="fragment_all_services"
+        tools:layout="@layout/fragment_all_services" />
+
+</navigation>

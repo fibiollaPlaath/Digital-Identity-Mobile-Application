@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">eNamibia</string>
+    <string name="feedback_hub">Feedback Hub</string>
+    <string name="services">Services</string>
+    <string name="language">Change Language</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_is_an_image">This is an image</string>
+    <string name="get_started">Get Started</string>
+    <string name="access_to_services">Access to Services</string>
+    <string name="submit_your_concerns">Submit Your Concerns</string>
+    <string name="feel_free_to_share_any_fears_or_confusions_you_have_we_are_here_to_help">Feel free to share any fears or confusions you have. We are here to help!</string>
+    <string name="describe_your_issue_here">Describe your issue here...</string>
+    <string name="record_voice_note">Record Voice Note</string>
+    <string name="submit_feedback">Submit Feedback</string>
+    <string name="touch_id">Touch ID</string>
+    <string name="place_and_hold_your_finger_on_the_fingerprint_reader">Place and hold your finger on the \nfingerprint reader</string>
+    <string name="one_moment">One moment...</string>
+    <string name="welcome">Welcome!</string>
+    <string name="e_voting_portal">e-Voting Portal</string>
+    <string name="oshiwambo">Oshiwambo</string>
+    <string name="afrikaans">Afrikaans</string>
+    <string name="nama">Nama</string>
+    <string name="english">English</string>
+    <string name="accessibility">Accessibility</string>
+    <string name="enable_text_to_speech">Enable Text-to-Speech</string>
+    <string name="voice_recorder">Voice Recorder</string>
+    <string name="_00_00">00:00</string>
+    <string name="or">Or</string>
+</resources>
