@@ -14,6 +14,8 @@ navigationFragmentKtx = "2.9.0"
 navigationUiKtx = "2.9.0"
 activity = "1.10.1"
 lottie = "6.0.0"
+biometric = "1.1.0"
+animatedBottomBar = "1.1.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -29,8 +31,9 @@ androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navi
 androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
+androidx-biometric = { group = "androidx.biometric", name = "biometric", version.ref = "biometric" }
+animated-bottom-bar = { group = "nl.joery.animatedbottombar", name = "library", version.ref = "animatedBottomBar" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-
