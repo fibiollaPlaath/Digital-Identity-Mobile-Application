@@ -31,12 +31,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottomNavigationView"
+        <nl.joery.animatedbottombar.AnimatedBottomBar
+            android:id="@+id/bottom_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/secondary"
-            app:menu="@menu/bottom_nav_menu" />
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:elevation="8dp"
+            app:abb_animationDuration="300"
+            app:abb_indicatorAppearance="round"
+            app:abb_indicatorColor="@color/primary"
+            app:abb_indicatorHeight="4dp"
+            app:abb_indicatorMargin="16dp"
+            app:abb_rippleEnabled="true"
+            app:abb_selectedIndex="0"
+            app:abb_selectedTabType="text"
+            app:abb_tabColor="@color/gray"
+            app:abb_tabs="@menu/bottom_nav_menu" />
 
     </androidx.cardview.widget.CardView>
 

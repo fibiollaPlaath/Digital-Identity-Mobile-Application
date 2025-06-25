@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    android:background="@color/secondary"
+    android:background="@color/white"
     app:cardCornerRadius="12dp"
     app:strokeColor="@color/hint"
     app:strokeWidth="1dp">
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:background="@color/secondary">
+        android:background="@color/white">
 
         <TextView
             android:id="@+id/textView_name"
